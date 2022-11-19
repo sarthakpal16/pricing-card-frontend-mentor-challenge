@@ -49,7 +49,7 @@ h2, h4, p {
   width: 100%;
   height: 100%;
   
-  
+  vertical-align: top;
   background-color: #2ab2af;
   
 }
@@ -59,7 +59,8 @@ h2, h4, p {
   display: inline-block;
   width: 100%;
   height: 100%;
-
+  
+  vertical-align: top;
   background-color: #2EBFBD;
 }
 
@@ -140,10 +141,10 @@ ul {
   
   .bottom_left_section, .bottom_right_section {
     width: 50%;
-    vertical-align: top;
     
   }
 }
+
 
 
 
