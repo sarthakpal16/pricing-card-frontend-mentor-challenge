@@ -30,13 +30,13 @@ h2, h4, p {
 .top_section {
   padding: 30px;
   width: 100%;
-  height: auto;
+  height: 45%;
   
 }
 
 .bottom_section {
   width: 100%;
-  height: auto;
+  height: 55%;
   color: white;
   
   
@@ -47,9 +47,9 @@ h2, h4, p {
   padding:30px;
   display: inline-block;
   width: 100%;
-  height: auto;
+  height: 100%;
   
-
+  vertical-align: top;
   background-color: #2ab2af;
   
 }
@@ -58,7 +58,9 @@ h2, h4, p {
   padding: 30px;
   display: inline-block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  
+  vertical-align: top;
   background-color: #2EBFBD;
 }
 
@@ -136,18 +138,10 @@ ul {
       height: 500px;
     
   }
- 
-  .top-section {
-   height: 45%;
- }
- 
+  
   .bottom_left_section, .bottom_right_section {
     width: 50%;
-   height: 55%;
-   vertical-align: top;
     
   }
 }
-
-
 
